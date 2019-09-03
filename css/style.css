@@ -1,0 +1,18 @@
+/* font */
+body {
+  font-family: Arial, sans-serif;
+  color: #444444;
+}
+
+h2 {
+  font-weight: normal;
+  
+}
+
+
+
+/* sizer */
+/* растягиваем блоки */
+
+div {padding: 20px;}
+
