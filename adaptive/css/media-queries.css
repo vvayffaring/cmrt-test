@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+   #pagewrap {
+      width: 95%;
+   }
+   #container {
+      width: 60%;
+      padding: 3% 4%;
+   }
+   #header {
+      height: auto;
+   }
+}
+
+
+
+@media screen and (max-width: 650px) {
+   #header {
+      height: auto;
+   }
+   #searchform {
+      position: absolute;
+      top: 5px;
+      right: 0;
+   }
+   
+   #site-logo {
+      margin: 15px 100px 5px 0;
+      position: static;
+   }
+   
+   #container {
+      width: 95%;
+      float: none;
+      margin: 20px 0;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   html {
+      -webkit-text-size-adjust: none;
+   }
+}
