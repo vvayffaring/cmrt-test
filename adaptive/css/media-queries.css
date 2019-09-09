@@ -1,20 +1,43 @@
 @media screen and (max-width: 1024px) {
-   #pagewrap {
+   .pagewrap {
       width: 95%;
    }
-   #container {
+   .container {
       width: 60%;
-      padding: 3% 4%;
    }
-   #header {
+   .header {
       height: auto;
    }
 }
 
+@media screen and (max-width: 768px) {
+   .header {
+      height: auto;
+   }
+   
+   .container {
+      width: 60%;
+   }
+   #searchform {
+      position: absolute;
+      top: 5px;
+      right: 0;
+   }
+   
+   /* #site-logo {
+      margin: 15px 100px 5px 0;
+      position: static;
+   }
+   */
+   .container {
+      width: 95%;
+      float: none;
+      margin: 20px 0;
+   }
+}
 
-
-@media screen and (max-width: 650px) {
-   #header {
+@media screen and (max-width: 576px) {
+   .header {
       height: auto;
    }
    #searchform {
@@ -23,12 +46,12 @@
       right: 0;
    }
    
-   #site-logo {
+   /* #site-logo {
       margin: 15px 100px 5px 0;
       position: static;
    }
-   
-   #container {
+   */
+   .container {
       width: 95%;
       float: none;
       margin: 20px 0;
