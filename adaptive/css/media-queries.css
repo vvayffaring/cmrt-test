@@ -3,7 +3,7 @@
       width: 95%;
    }
    .container {
-      width: 60%;
+      width: 95%;
    }
    .header {
       height: auto;
@@ -15,28 +15,22 @@
       height: auto;
    }
    
-   .container {
-      width: 60%;
-   }
-   #searchform {
-      position: absolute;
-      top: 5px;
-      right: 0;
+   .pagewrap {
+      width: 95%;
+      margin: 0;
    }
    
-   /* #site-logo {
-      margin: 15px 100px 5px 0;
-      position: static;
-   }
-   */
    .container {
+      max-width: 95%;
       width: 95%;
-      float: none;
-      margin: 20px 0;
    }
+
 }
 
 @media screen and (max-width: 576px) {
+   .pagewrap {
+      width: 95%;
+   }
    .header {
       height: auto;
    }
@@ -45,12 +39,7 @@
       top: 5px;
       right: 0;
    }
-   
-   /* #site-logo {
-      margin: 15px 100px 5px 0;
-      position: static;
-   }
-   */
+
    .container {
       width: 95%;
       float: none;
