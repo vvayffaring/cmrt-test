@@ -1,8 +1,11 @@
 @media screen and (max-width: 1024px) {
    .pagewrap {
       width: 95%;
+      max-width: 95%;
    }
+   
    .container {
+      max-width: 95%;
       width: 95%;
    }
    .header {
@@ -11,44 +14,77 @@
 }
 
 @media screen and (max-width: 768px) {
+   .pagewrap {
+      width: 95%;
+      margin: 0 auto;
+   }
+   .container {
+      max-width: 95%;
+      width: 95%;
+      padding: 0;
+   }
+   .header {
+      height: auto;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .pagewrap {
+      width: 95%;
+      
+   }
+   .container {
+      max-width: 95%;
+      width: 95%;
+   }
    .header {
       height: auto;
    }
    
+   .basket {
+      display: none;
+   }
+/*
+   .container {
+      width: 95%;
+   }*/
+}
+
+@media screen and (max-width: 480px) {
+   html {
+      -webkit-text-size-adjust: none;
+   }
    .pagewrap {
       width: 95%;
-      margin: 0;
    }
    
    .container {
       max-width: 95%;
       width: 95%;
    }
-
-}
-
-@media screen and (max-width: 576px) {
-   .pagewrap {
-      width: 95%;
-   }
+   
    .header {
       height: auto;
    }
-   #searchform {
-      position: absolute;
-      top: 5px;
-      right: 0;
+   
+   .basket {
+      display: none;
    }
 
-   .container {
-      width: 95%;
-      float: none;
-      margin: 20px 0;
+   .text_ {
+      display: none;
    }
-}
 
-@media screen and (max-width: 480px) {
-   html {
-      -webkit-text-size-adjust: none;
+   .header_center {
+      justify-content: center;
+      position: relative;
+      top:150px;
+      width:100%;
+      }
+   }
+   .login {
+      display: inline-block;
+      text-align: center;
+      margin: 0px 0 0 0;
    }
 }
