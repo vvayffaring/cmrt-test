@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 2000px) {
    .pagewrap {
       width: 95%;
       max-width: 95%;
@@ -10,6 +10,9 @@
    }
    .header {
       height: auto;
+   }
+   .header_center_2 {
+      display: none;
    }
 }
 
@@ -26,6 +29,9 @@
    .header {
       height: auto;
    }
+   .header_center_2 {
+      display: none;
+   }
 }
 
 @media screen and (max-width: 576px) {
@@ -37,6 +43,7 @@
       max-width: 95%;
       width: 95%;
    }
+
    .header {
       height: auto;
    }
@@ -44,10 +51,9 @@
    .basket {
       display: none;
    }
-/*
-   .container {
-      width: 95%;
-   }*/
+   .header_center_2 {
+      display: none;
+   }
 }
 
 @media screen and (max-width: 480px) {
@@ -76,15 +82,20 @@
    }
 
    .header_center {
-      justify-content: center;
-      position: relative;
-      top:150px;
-      width:100%;
-      }
+      display: none;
    }
+   
+   .header_center_2 {
+      display: block;
+      padding: 10px 0 0 0;
+   }
+
    .login {
       display: inline-block;
       text-align: center;
-      margin: 0px 0 0 0;
+      margin: -35px 0 0 0;
+   }
+   .poisk {
+     
    }
 }

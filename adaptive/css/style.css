@@ -13,15 +13,12 @@
   align-items: center;
   justify-content: space-between;
 }
-
+/*
 .header_center {
 
 }  
 
-.asap {
-
-}
-
+*/
 #content {
    float: left;
 }
@@ -42,6 +39,7 @@
   padding: 10px 10px 10px 5px;
   color: #57AD56;
 }
+
 
 .asap {
   display: inline-block;
@@ -109,6 +107,12 @@
   display: inline-block;
 }
 
+.horizont-line {
+  width: 95%;
+  border-bottom: solid 1px #979797;
+  padding-left: 0px
+}
+
 .basket {
   display: inline-block;
   width: 40px;
@@ -129,7 +133,7 @@
   /* устанавливаем необходимую ширину формы в зависимости от дизайна
   ** форма без проблем растягивается */
   width: 100%;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   border: 0;
   border-bottom: 1px solid #979797;
 }
@@ -273,21 +277,43 @@ input[type="search"] {
     flex-wrap: wrap;
 }
 
-#footer {
-   clear: both;
+.footer {
    height: 552px;
    width: auto;
-   background-color: #04FF00;
+   background-color: #262626;
    margin:0 auto;
    display: flex;
    align-items: center;
-   justify-content: center;
-
+   color: #fff;
 }
 
+.logo_footer {
+  margin-top: 0;
+  font-size: 16px;
+}
 
+.logo_footer_text1 {
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  color: #fff;
+  font-size: 26px;
+}
 
+.logo_footer_text2 {
+  display: inline-block;
+  padding: 10px 10px 10px 5px;
+  color: #57AD56;
+  font-size: 26px;
+}
 
+hr {
+  border: none; /* Убираем границу */
+  background-color: #979797; /* Цвет линии */
+  color: #979797; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  width: 95%;
+  color: #c10808;
+}
 
 /* font 
 body {
