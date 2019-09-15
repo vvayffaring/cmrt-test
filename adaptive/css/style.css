@@ -278,11 +278,10 @@ input[type="search"] {
 }
 
 .footer {
-   height: 552px;
-   width: auto;
+   height: auto;
+   width: 95%;
    background-color: #262626;
    margin:0 auto;
-   display: flex;
    align-items: center;
    color: #fff;
 }
@@ -313,8 +312,40 @@ hr {
   height: 1px; /* Толщина линии */
   width: 95%;
   color: #c10808;
+
 }
 
+.language {
+  display: inline-block;
+  border: 1px solid #E0E0E0;
+  width: 176px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #3B3B3B;
+}
+
+.socials {
+  height: 96px;
+  width: 100px;
+}
+
+.app {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.copywrite {
+
+}
+
+.footer_button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup_content {
+  padding: 15px 0 0 15px;
+}
 /* font 
 body {
   font-family: Arial, sans-serif;
